@@ -14,7 +14,7 @@ import pandas as pd
 st.title('Interactive Censorship Data Visualization App')
 
 # File uploader for the CSV file
-uploaded_file = st.file_uploader("Eng220.csv", type=["csv"])
+uploaded_file = st.file_uploader("Book2.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Load the uploaded CSV file into a DataFrame
